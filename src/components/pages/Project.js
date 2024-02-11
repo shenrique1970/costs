@@ -1,7 +1,5 @@
-import styles from './Project.module.css'
-
 function Project() {
-    return <h1>Projetos</h1>
+    return
 }
 
 export default Project
