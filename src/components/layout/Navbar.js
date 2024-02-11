@@ -6,7 +6,7 @@ import logo from "../../img/costs_logo.png";
 
 function Navbar() {
   return (
-    <nav className={styles.navbar}>
+    <div className={styles.navbar}>
       <Container>
         <Link to="/">
           <img src={logo} alt="Costs" />
@@ -16,7 +16,7 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/newproject">Projetos</Link>
+            <Link to="/projects">Projetos</Link>
           </li>
           <li className={styles.item}>
             <Link to="/company">Empresa</Link>
@@ -26,7 +26,7 @@ function Navbar() {
           </li>
         </ul>
       </Container>
-    </nav>
+    </div>
   );
 }
 
