@@ -27,7 +27,7 @@ function App() {
 
           <Route path="/newproject" element={<NewProject />} />
 
-          <Route path="/project" element={<Project />} />
+          <Route path="/project/:id" element={<Project />} />
 
         </Routes>
       </Container>
